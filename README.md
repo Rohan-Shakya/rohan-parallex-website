@@ -2,6 +2,8 @@
 
 This project introduces a website that offers an engaging and interactive experience, featuring captivating scrolling effects known as parallax scrolling.
 
+![Rohan Shakya Parallax](https://raw.githubusercontent.com/Rohan-Shakya/rohan-parallex-website/main/images/preview.png)
+
 ## Technologies Used
 
 - HTML5
