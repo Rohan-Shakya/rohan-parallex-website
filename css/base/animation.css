@@ -1,0 +1,21 @@
+@keyframes bounce {
+  100% {
+    bottom: 22%;
+  }
+}
+
+@keyframes bubble {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(var(--transform-y));
+    opacity: 1;
+  }
+}

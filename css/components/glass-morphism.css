@@ -1,0 +1,21 @@
+/* Glass Morphism */
+.glass {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  padding: 4rem 3rem;
+  color: var(--primary);
+}
+
+@media screen and (max-width: 650px) {
+  .glass {
+    padding: 2rem 1.8rem;
+  }
+}

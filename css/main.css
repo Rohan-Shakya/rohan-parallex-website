@@ -1,0 +1,14 @@
+/* Base */
+@import url("/css/base/variable.css");
+@import url("/css/base/base.css");
+@import url("/css/base/animation.css");
+@import url("/css/base/typography.css");
+
+/* Components */
+@import url("/css/components/scroll-top.css");
+@import url("/css/components/glass-morphism.css");
+@import url("/css/components/bubbles.css");
+
+@import url("/css/components/header.css");
+@import url("/css/components/nature.css");
+@import url("/css/components/sea-water.css");

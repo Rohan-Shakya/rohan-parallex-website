@@ -1,0 +1,164 @@
+.about-container {
+  position: relative;
+  padding: 10%;
+  background: var(--water);
+  padding-top: 8%;
+  padding-bottom: 15%;
+  z-index: 50;
+  overflow: hidden;
+  font-size: 1.1rem;
+}
+
+.about-container h2 {
+  font-size: 3.5rem;
+}
+
+.about-container h3 {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.about-container h4 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.about-container h5 {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.about-container p {
+  margin: 0;
+}
+
+.about-container ul {
+  list-style: none;
+  margin: 0;
+}
+
+.about-container ul li {
+  margin: 1% 2%;
+  font-size: 1rem;
+}
+
+.experience-container .experience {
+  margin: 2rem 0 3rem;
+}
+
+.experience-container .experience .sub-experience {
+  margin: 2rem 2%;
+}
+
+.experience .duration {
+  opacity: 0.8;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience a {
+  color: inherit;
+}
+
+.experience ul {
+  list-style: circle;
+}
+
+.fishes .fish {
+  position: absolute;
+  opacity: 0.9;
+}
+
+.fishes #fish-1 {
+  top: 0;
+  left: 100px;
+  width: 300px;
+  transform: rotate3d(180deg);
+}
+
+.fishes #fish-2 {
+  top: 950px;
+  right: 0;
+  width: 400px;
+}
+
+.fishes #fish-3 {
+  top: 83%;
+  width: 250px;
+  height: 149px;
+}
+
+.fishes #oceanbed {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  opacity: 1;
+}
+
+.sea-fishes .sea-fish {
+  position: absolute;
+  opacity: 1;
+  z-index: -1;
+}
+
+.sea-fishes #sea-fish-1 {
+  top: 10%;
+  left: 1%;
+  width: 200px;
+}
+
+.sea-fishes #sea-fish-2 {
+  top: 16%;
+  right: 1%;
+  width: 200px;
+}
+
+.sea-fishes #sea-fish-3 {
+  top: 40%;
+  left: 8px;
+  width: 150px;
+}
+
+.sea-fishes #sea-fish-4 {
+  top: 50%;
+  right: 0;
+  width: 200px;
+}
+
+.sea-fishes #sea-fish-5 {
+  top: 72%;
+  left: 2%;
+  width: 120px;
+}
+
+.sea-fishes #sea-fish-6 {
+  top: 88%;
+  right: 70%;
+  width: 200px;
+}
+
+.sea-fishes #sea-fish-7 {
+  bottom: 0;
+  left: 55%;
+  z-index: 100;
+  width: 20%;
+  height: 7%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 650px) {
+  .about-container {
+    padding: 5%;
+  }
+
+  .about-container h2 {
+    font-size: 3.5rem;
+  }
+
+  .about-container .sea-fishes,
+  .about-container #fish-1,
+  .about-container #fish-2,
+  .about-container #fish-3 {
+    display: none;
+  }
+}
